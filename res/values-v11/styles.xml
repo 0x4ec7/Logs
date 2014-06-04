@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="Themes.Record.Actionbar" parent="@style/Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/Widget.Record.ActionBar</item>
+        <item name="android:actionBarTabStyle">@style/Widget.Record.ActionBarTab</item>
+        <item name="android:actionBarTabTextStyle">@style/TextAppearance.Record.Widget.ActionBar.Tab.Text</item>
+    </style>
+
+    <style name="Widget.Record.ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Record.Widget.ActionBar.Title</item>
+    </style>
+
+</resources>

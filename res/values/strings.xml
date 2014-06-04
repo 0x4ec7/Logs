@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">通话记录管理器</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="actionbar_title">通话记录管理器</string>
+    <string name="no_more_result">没有更多数据了</string>
+    <string name="latest_contact">最近通话：</string>
+    <string name="latest_contact_date">最近通话时间：</string>
+    <string name="count">次</string>
+    <string name="contact_duration">通话时长：</string>
+    
+    <string name="start_playing">开始播放录音</string>
+    <string name="stop_playing">停止播放录音</string>
+    <string name="confirm_delete">是否删除这条录音？</string>
+    <string name="confirm_delete_thoroughly">是否彻底删除这条录音？</string>
+    <string name="confirm_delete_individual">是否删除此人的所有录音记录？</string>
+    <string name="confirm_restore">是否恢复这条录音？</string>
+    <string name="delete_success">成功删除录音</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="restore_actionbar_title">录音恢复</string>
+    
+    <string name="menu_restore">恢复</string>
+    <string name="menu_quit">退出</string>
+    <string name="desc">image desc</string>
+    <string name="quit_toast">再按一次退出</string>
+
+</resources>

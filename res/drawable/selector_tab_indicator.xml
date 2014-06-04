@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/image_tab_indicator" android:state_selected="true"/>
+    <item android:drawable="@android:color/transparent" android:state_selected="false"/>
+
+</selector>

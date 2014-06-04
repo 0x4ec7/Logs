@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Themes.Record.Actionbar" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.Record.ActionBar</item>
+        <item name="actionBarTabStyle">@style/Widget.Record.ActionBarTab</item>
+        <item name="actionBarTabTextStyle">@style/TextAppearance.Record.Widget.ActionBar.Tab.Text</item>
+    </style>
+
+    <style name="Widget.Record.ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@color/actionbar_background</item>
+        <item name="backgroundStacked">@color/actionbar_background_stacked</item>
+        <item name="titleTextStyle">@style/TextAppearance.Record.Widget.ActionBar.Title</item>
+    </style>
+
+    <!-- Actionbar title text -->
+    <style name="TextAppearance.Record.Widget.ActionBar.Title" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Actionbar tab -->
+    <style name="Widget.Record.ActionBarTab" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@drawable/selector_tab_indicator</item>
+    </style>
+
+    <!-- Actionbar tab text -->
+    <style name="TextAppearance.Record.Widget.ActionBar.Tab.Text" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@drawable/selector_tab_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

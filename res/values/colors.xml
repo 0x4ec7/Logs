@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+	<color name="dark_gray">#333333</color>
+	<color name="actionbar_background">#33B5E5</color>
+	<color name="actionbar_background_stacked">#ffffff</color>
+	<color name="indicator_background">#4BA9E6</color>
+	<color name="tab_text_unselected">#444444</color>
+	<color name="tab_text_selected">#4BA9E6</color>
+	<color name="bg_color">#d0d2d4</color>
+</resources>

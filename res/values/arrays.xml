@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="tab_names">
+        <item>通话记录</item>
+        <item>联系人</item>
+    </string-array>
+    
+</resources>

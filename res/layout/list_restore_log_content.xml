@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/restore_log_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/list_content_bg"
+        android:gravity="left"
+        android:clickable="true"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="13sp" />
+        
+        <TextView 
+            android:id="@+id/contact_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:textColor="@color/dark_gray" />
+        
+        <TextView 
+            android:id="@+id/contact_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:textColor="@color/dark_gray" />
+
+    </LinearLayout>
+
+</RelativeLayout>
